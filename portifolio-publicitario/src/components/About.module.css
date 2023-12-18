@@ -1,0 +1,8 @@
+.about{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  gap: 6rem;
+}
