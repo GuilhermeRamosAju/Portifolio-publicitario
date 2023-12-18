@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'DM Sans', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body,#root{
+  background-image: url(./components/images/BG.jpg);
+}
+p{
+  font-family: 'Arimo', sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}

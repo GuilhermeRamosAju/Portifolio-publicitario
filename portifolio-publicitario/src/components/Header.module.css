@@ -1,0 +1,37 @@
+.menu{
+  background-color: #FFDEBA;
+  margin: 0 auto;
+}
+.menuContainer{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+#logoImg{
+  max-height: 6vh;
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+a{
+  animation: fadeIn 1s ease forwards;
+  padding:  0.3rem 0.625rem;
+  color: #792606;
+  font-size: 1.125rem;
+  border-radius: 6px;
+  transition: color 0.2s;
+}
+a:hover{
+  color: #c2917d
+}
+
