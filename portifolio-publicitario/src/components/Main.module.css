@@ -20,7 +20,7 @@
   gap: 1.875rem;
 }
 
-img{
+.aboutBg>img{
   animation: fadeIn 3s ease forwards;
   max-width: 500px;
 }

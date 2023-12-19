@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const Carousel = ({ items }) => {
   const settings = {
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     centerMode: true,
     focusOnSelect: true,
@@ -17,7 +17,7 @@ const Carousel = ({ items }) => {
     <div className={styles.carouselContainer}>
         <Slider {...settings}>
         {items.map((item, index) => (
-          <div key={index} className="carouselItem">
+          <div key={index} className={styles.carouselItem}>
             {item.type === 'image' ? (
               <img className={styles.carouselImage} src={item.source} alt={`Imagem ${index + 1}`} />
             ) : (
@@ -45,9 +45,9 @@ const Work = () =>{
       { type: 'image', source: images.clubeCar3 },
     ],
     2: [
-      { type: 'image', source: 'url_da_imagem_4.jpg' },
-      { type: 'image', source: 'url_da_imagem_5.jpg' },
-      { type: 'image', source: 'url_da_imagem_6.jpg' },
+      { type: 'image', source: images.outubroRosa1 },
+      { type: 'image', source: images.outubroRosa2  },
+      { type: 'image', source: images.felizDiadoMotorista  },
     ],
     3: [
       { type: 'video', source: 'url_do_video_1.mp4' },

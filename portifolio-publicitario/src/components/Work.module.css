@@ -46,17 +46,20 @@
   border-top: 2px solid rgba(229, 189, 146, 0.342);
   margin: 0 auto;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1000px;
   gap: 6rem;
   padding: 2rem;
+  border-radius: 0px 0px 30px 30px;
   background-color: #FFDCB6;
   animation: fadeInDropdown 2s forwards;
 }
 
 .carouselImage{
   cursor: pointer;
-  width: 18rem;
+  width: 25rem;
+  padding-left: 30rem;
+  border-radius: inherit;
 }
 
 
