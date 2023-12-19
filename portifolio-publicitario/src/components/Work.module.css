@@ -1,0 +1,72 @@
+.workBg{
+  margin: 0 auto;
+  background-color: #FFDEBA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+}
+.workPannel{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1000px;
+  gap: 2rem;
+}
+
+.workPannel>span{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3C1400;
+  text-align: center;
+}
+#buttonContainer{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+#buttonContainer>button{
+  cursor: pointer;
+  border: none;
+  padding:  0.625rem 0.625rem;
+  background: #5B1F00;
+  color: #dedede;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-family: 'Arimo';
+  font-size: 1.25rem;
+  transition: 0.5s;
+}
+#buttonContainer>button:hover {
+  color: #ffffff;
+  background: #4e1a00;
+}
+
+.carouselContainer{
+  border-top: 2px solid rgba(229, 189, 146, 0.342);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  gap: 6rem;
+  padding: 2rem;
+  background-color: #FFDCB6;
+  animation: fadeInDropdown 2s forwards;
+}
+
+.carouselImage{
+  cursor: pointer;
+  width: 18rem;
+}
+
+
+@keyframes fadeInDropdown {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
