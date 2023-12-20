@@ -55,7 +55,7 @@
   animation: fadeInDropdown 2s forwards;
 }
 
-.carouselImage{
+.carouselImage,.carouselVideo{
   cursor: pointer;
   width: 25rem;
   padding-left: 30rem;

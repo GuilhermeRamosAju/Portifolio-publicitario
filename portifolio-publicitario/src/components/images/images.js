@@ -1,25 +1,38 @@
-import ceacTurista from './ceacTurista.png';
-import clubeCar1 from './clubeCar1.png';
-import clubeCar2 from './clubeCar2.png';
-import clubeCar3 from './clubeCar3.png';
-import clubeCar4 from './clubeCar4.png';
-import clubeCar5 from './clubeCar5.png';
-import clubeCar6 from './clubeCar6.png';
-import felizDiadoMotorista from './felizDiadoMotorista.png';
-import outubroRosa1 from './outubroRosa1.png';
-import outubroRosa2 from './outubroRosa2.png';
+import desing1 from './design1.png';
+import desing2 from './design2.png';
+import desing3 from './design3.png';
+import desing4 from './design4.png';
+import desing5 from './design5.png';
+import desing6 from './design6.png';
+import desing7 from './design7.png';
+import desing8 from './design8.png';
+import copy1 from './copy1.png';
+import copy2 from './copy2.png';
+import copy3 from './copy3.png';
+import copy4 from './copy4.png';
+import copy5 from './copy5.png';
+import copy6 from './copy6.png';
+import copy7 from './copy8.png';
+import copy8 from './copy8.png';
+import copy9 from './copy9.png';
 
 const images = {
-  ceacTurista,
-  clubeCar1,
-  clubeCar2,
-  clubeCar3,
-  clubeCar4,
-  clubeCar5,
-  clubeCar6,
-  felizDiadoMotorista,
-  outubroRosa1,
-  outubroRosa2,
+  copy1,
+  copy2,
+  copy3,
+  copy4,
+  copy5,
+  copy6,
+  copy7,
+  copy8,
+  copy9,
+  desing1,
+  desing2,
+  desing3,
+  desing4,
+  desing5,
+  desing6,
+  desing7,
+  desing8,
 }
-
 export default images;
