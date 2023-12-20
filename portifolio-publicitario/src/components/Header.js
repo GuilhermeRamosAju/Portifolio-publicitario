@@ -13,7 +13,6 @@ const Header = () =>{
         </ul>
       </nav>
     </header>
-
   )
 }
 

@@ -3,7 +3,6 @@
   background: linear-gradient(90deg, #5B1F00 41.3%, #8B2F00 78.51%);
   box-shadow: 0px 10px 6.3px rgba(91, 31, 0, 0.15);
 }
-
 .aboutContainer{
   display: flex;
   margin: 0 auto;
@@ -12,19 +11,16 @@
   max-width: 1000px;
   gap: 6rem;
 }
-
 .title{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.875rem;
 }
-
 .aboutBg>img{
   animation: fadeIn 3s ease forwards;
   max-width: 500px;
 }
-
 .titleH1{
 font-family: 'DM Sans';
 font-weight: 700;
@@ -33,7 +29,6 @@ text-align: center;
 color: #E9E9E9;
 animation: fadeIn 1.5s ease forwards;
 }
-
 .subTitle{
 font-family: 'Arimo';
 font-weight: 700;
