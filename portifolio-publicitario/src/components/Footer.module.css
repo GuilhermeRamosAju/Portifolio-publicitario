@@ -1,0 +1,35 @@
+.footerBg{
+    margin: 0 auto;
+    background-color: #5B1F00;
+}
+.footerContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1000px;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+.footerContainer>span{
+  color: #E9E9E9;
+  font-size: 1.5rem;
+}
+.footerTxt{
+  color: #E9E9E9;
+  font-size: 0.875rem;
+}
+.footerTxt>a{
+}
+.footerLinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+.footerLink{
+  display: flex;
+  align-items: center;
+}
+.footerLink>img{
+  width: 2rem;
+}

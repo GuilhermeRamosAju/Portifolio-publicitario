@@ -15,6 +15,11 @@ import copy6 from './copy6.png';
 import copy7 from './copy8.png';
 import copy8 from './copy8.png';
 import copy9 from './copy9.png';
+import marca1 from './marca1.png';
+import marca2 from './marca2.png';
+import marca3 from './marca3.png';
+import marca4 from './marca4.png';
+import marca5 from './marca5.png';
 
 const images = {
   copy1,
@@ -34,5 +39,10 @@ const images = {
   desing6,
   desing7,
   desing8,
+  marca1,
+  marca2,
+  marca3,
+  marca4,
+  marca5
 }
 export default images;

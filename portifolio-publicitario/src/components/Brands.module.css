@@ -1,0 +1,14 @@
+.brandsContainer{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  padding: 2rem;
+  margin: 0 auto;
+  gap: 3rem;
+  align-items: center;
+}
+.brandsImg{
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}

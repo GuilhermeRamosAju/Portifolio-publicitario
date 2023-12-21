@@ -14,12 +14,6 @@
   gap: 2rem;
 }
 
-.workPannel>span{
-  font-size: 2rem;
-  font-weight: 700;
-  color: #3C1400;
-  text-align: center;
-}
 #buttonContainer{
   display: flex;
   align-items: center;
@@ -44,6 +38,7 @@
 
 .carouselContainer{
   border-top: 2px solid rgba(229, 189, 146, 0.342);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
   align-items: center;
   justify-content: center;

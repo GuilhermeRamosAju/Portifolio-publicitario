@@ -83,6 +83,11 @@ const Work = () =>{
   const showCarousel = (index) => {
     setCurrentCarousel(index);
     setCarouselVisible(true);
+    setTimeout(() => window.scrollTo({
+      top: 800,
+      left: 0,
+      behavior: "smooth",
+    }), 100)
   };
   return (
     <>

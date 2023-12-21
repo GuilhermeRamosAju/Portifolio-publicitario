@@ -2,6 +2,8 @@ import Header from './components/Header.js'
 import Main from './components/Main.js';
 import About from './components/About.js';
 import Work from './components/Work.js';
+import Brands from './components/Brands.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Main />
       <About />
       <Work />
+      <Brands />
+      <Footer />
     </>
   );
 }
