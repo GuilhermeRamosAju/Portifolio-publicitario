@@ -5,7 +5,7 @@ import logo4 from './images/whatsapp.svg';
 import styles from './Footer.module.css';
 const Footer = () =>{
   return(
-    <footer className={styles.footerBg}>
+    <footer className={styles.footerBg} id='footer'>
       <div className={styles.footerContainer}>
         <span>Gostou do que viu? Entre em contato para transformar ideias em realidade!</span>
         <div className={styles.footerLinks}>
